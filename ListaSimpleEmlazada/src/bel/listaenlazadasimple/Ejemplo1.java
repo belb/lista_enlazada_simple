@@ -13,24 +13,24 @@ public static void main(String ar[])
 	lista.addToPosition(2,5);
 	lista.addToPosition(3,30);
 	lista.addToPosition(4,200);
-   lista.showList(); // mostrar lista 
-  System.out.println("-------------");
-   lista.removeToInitial();  //eliminar un valor al principio
-   lista.removeToInitial(); 
-  lista.removeToLast();  //eliminar un valor alfinal
+        lista.showList(); // mostrar lista 
+        System.out.println("-------------");
+        lista.removeToInitial();  //eliminar un valor al principio
+        lista.removeToInitial(); 
+        lista.removeToLast();  //eliminar un valor alfinal
   
-  lista.showList();  // mostrar lista 
-  for(int i=0;i<lista.length();i++)  //optener un valor individual por medio de un for
-  {
-	  System.out.println(i+" position "+lista.getItem(i));
-  }
+        lista.showList();  // mostrar lista 
+        for(int i=0;i<lista.length();i++)  //optener un valor individual por medio de un for
+               {
+	            System.out.println(i+" position "+lista.getItem(i));
+                                                                           }
   
-  lista.addToPosition(5,100);   
-  System.out.println("-------------------------------------------");
-  lista.addFirst(100);
-  lista.addLast(200);
-  lista.addToPosition(4,76);
-  System.out.println(lista);// imprimir el contenido completo de la lista 
+        lista.addToPosition(5,100);   
+        System.out.println("-------------------------------------------");
+        lista.addFirst(100);
+        lista.addLast(200);
+        lista.addToPosition(4,76);
+        System.out.println(lista);// imprimir el contenido completo de la lista 
  
 }
 }
